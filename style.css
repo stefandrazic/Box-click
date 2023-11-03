@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#box {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(23, 185, 52);
+  font-weight: 900;
+  position: fixed;
+  cursor: pointer;
+  display: none;
+}
+
+#playerScore {
+  color: purple;
+}
+
+#computerScore {
+  color: red;
+}
+
+#start {
+  background-color: cyan;
+  padding: 30px;
+}
+
+span {
+  font-size: 2rem;
+}
